@@ -1,0 +1,37 @@
+
+#
+
+POST https://yogichaitanyapncjfnjscpfvwof.drops.nxtwave.tech/register
+
+Content-Type: application/json
+
+{
+  "username": "adam_richard",
+  "name": "Adam Richard",
+  "password": "richard_567",
+  "gender": "male",
+  "location": "Detroit"
+}
+
+
+##
+
+PUT https://yogichaitanyapncjfnjscpfvwof.drops.nxtwave.tech/login
+Content-Type: application/json
+
+{
+  "username": "adam_richard",
+  "password": "richard@456"
+}
+
+###
+
+PUT https://yogichaitanyapncjfnjscpfvwof.drops.nxtwave.tech/change-password
+Content-Type: application/json
+
+{
+  "username": "adam_richard",
+  "oldPassword": "richard@123",
+  "newPassword": "richard@456"
+}
+
